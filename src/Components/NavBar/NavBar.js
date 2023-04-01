@@ -8,10 +8,20 @@ const NavBar = () => {
       Create Employees Data
       <div>
         <button>
-          <Link to="/sign-in">Login</Link>
+          <Link
+            to="/sign-in"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Login
+          </Link>
         </button>
         <button>
-          <Link to="/sign-up">Sign Up</Link>
+          <Link
+            to="/sign-up"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Sign Up
+          </Link>
         </button>
       </div>
     </div>
