@@ -1,0 +1,17 @@
+tbody {
+    align-items: center;
+}
+
+tbody button {
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+tbody button:hover {
+    background-color: #cc45e5;
+}
